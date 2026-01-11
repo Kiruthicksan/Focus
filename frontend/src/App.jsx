@@ -4,6 +4,7 @@ import Streak from './components/Streak'
 import Progress from './components/Progress'
 import WeekTracker from './components/WeekTracker'
 import RecentSession from './components/RecentSession'
+import Quotes from './components/Quotes'
 const App = () => {
   return (
     <div className='bg-gray-100 min-h-screen w-full'>
@@ -13,6 +14,7 @@ const App = () => {
         <Progress />
         <WeekTracker />
         <RecentSession />
+        <Quotes />
       </div>
     </div>
   )
